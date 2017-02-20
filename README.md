@@ -11,10 +11,8 @@ MODx FormIt validator for Google reCaptcha
 
 1. Go to https://www.google.com/recaptcha/ and create Site-key and Secret for your site
 2. Create the snippet in MODX named reCaptcha with the contents of reCaptcha.php
-3. Add the javascript to your ```<head>``` section
-  ```
-  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-  ```
+3. Add ```<script src="https://www.google.com/recaptcha/api.js" async defer></script>``` to your ```<head>``` section
+
 4. Edit your FormIt call like below
 
   Add the custom validator
